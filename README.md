@@ -1,15 +1,15 @@
-# 📰 NewsFeed – Fullstack Web App Project
+# NewsFeed – Fullstack Web App Project
 
 Welcome to **NewsFeed**, a fullstack web application I developed as a part of the experience provided by the **Bloomberg Tech Lab**. The tech lab introduced me to key industry tools and practices, and I built upon that foundation to deepen my understanding of fullstack development using React, Flask, Redis, and Docker.
 ---
 
-## 🚀 Overview
+## Overview
 
 NewsFeed is a news aggregation web app that pulls in articles, displays a featured story, and showcases a feed of headlines. The goal was to create a performant and maintainable system that mirrors production-grade architecture using widely adopted technologies.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **React**: For building interactive UIs  
 - **Flask**: Lightweight backend API built in Python  
@@ -18,7 +18,7 @@ NewsFeed is a news aggregation web app that pulls in articles, displays a featur
 
 ---
 
-## 🎯 What I Learned
+## What I Learned
 
 - **Frontend Development**: Built reusable UI components using React and TypeScript  
 - **Backend Development**: Created RESTful APIs using Flask  
@@ -27,7 +27,7 @@ NewsFeed is a news aggregation web app that pulls in articles, displays a featur
 
 ---
 
-## 📋 Main Features
+## Main Features
 
 ### Frontend (React)
 
@@ -47,7 +47,7 @@ NewsFeed is a news aggregation web app that pulls in articles, displays a featur
 
 ---
 
-## 🧪 Getting Started
+## Getting Started
 
 ### Prerequisites
 
