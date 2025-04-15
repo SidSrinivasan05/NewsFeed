@@ -1,7 +1,7 @@
 # NewsFeed – Fullstack Web App Project
 
-Welcome to **NewsFeed**, a fullstack web application I developed as a part of the experience provided by the **Bloomberg Tech Lab**. The tech lab introduced me to key industry tools and practices, and I built upon that foundation to deepen my understanding of fullstack development using React, Flask, Redis, and Docker.
 ---
+Welcome to **NewsFeed**, a fullstack web application I developed as a part of the experience provided by the **Bloomberg Tech Lab**. The tech lab introduced me to key industry tools and practices, and I built upon that foundation to deepen my understanding of fullstack development using React, Flask, Redis, and Docker.
 
 ## Overview
 
