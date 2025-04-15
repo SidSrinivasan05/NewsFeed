@@ -1,92 +1,68 @@
-# Tech Lab: Fullstack Web Application Project
+# 📰 NewsFeed – Fullstack Web App Project
 
-In this tech lab, students will gain hands-on experience in building a fullstack web application using React, Flask, Redis, and Docker. This project is designed to provide a comprehensive understanding of modern web development practices and technologies.
+Welcome to **NewsFeed**, a fullstack web application I developed as a part of the experience provided by the **Bloomberg Tech Lab**. The tech lab introduced me to key industry tools and practices, and I built upon that foundation to deepen my understanding of fullstack development using React, Flask, Redis, and Docker.
+---
 
-This tech lab is inspired by the real-world applications and technologies used at Bloomberg LP. By participating in this project, students will gain valuable skills that are highly relevant in the industry, preparing them for future opportunities in tech companies like Bloomberg.
+## 🚀 Overview
 
-## Project Overview
+NewsFeed is a news aggregation web app that pulls in articles, displays a featured story, and showcases a feed of headlines. The goal was to create a performant and maintainable system that mirrors production-grade architecture using widely adopted technologies.
 
-Students will work on creating a web application that involves both frontend and backend development. The frontend will be built using React, while the backend will be implemented using Flask. Redis will be used for data caching, and Docker will be utilized to containerize the application for easy deployment.
+---
 
-## Technologies Used
+## 🛠️ Tech Stack
 
-- React: A JavaScript library for building user interfaces.
-- Flask: A lightweight WSGI web application framework in Python.
-- Redis: An in-memory data structure store, used as a database
-- Docker: A platform for developing, shipping, and running applications in containers.
+- **React**: For building interactive UIs  
+- **Flask**: Lightweight backend API built in Python  
+- **Redis**: Used for caching to optimize performance  
+- **Docker**: Containerizes both frontend and backend for easy deployment
 
-## Learning Objectives
+---
 
-By participating in this tech lab, students will:
+## 🎯 What I Learned
 
-1. Frontend Development: Learn how to create dynamic and responsive user interfaces using React.
-2. Backend Development: Implement RESTful APIs using Flask to handle data retrieval and manipulation.
-3. Data Caching: Understand the importance of caching and how to use Redis to improve application performance.
-4. Containerization: Gain experience in containerizing applications using Docker for consistent and scalable deployment.
+- **Frontend Development**: Built reusable UI components using React and TypeScript  
+- **Backend Development**: Created RESTful APIs using Flask  
+- **Caching Strategies**: Integrated Redis to reduce response times and offload database hits  
+- **DevOps Fundamentals**: Used Docker and Docker Compose to orchestrate multi-service development environments
 
-## Project Tasks
+---
+
+## 📋 Main Features
 
 ### Frontend (React)
 
-- Create a user interface to display data retrieved from the backend.
-- Implement forms and components to interact with the backend APIs.
+- Displays featured article with image, author, and summary  
+- News feed component shows latest articles  
+- Responsive and styled with Tailwind CSS
 
-### Backend (Flask)
+### Backend (Flask + Redis)
 
-- Develop APIs to handle data requests and responses.
-- Integrate Redis for caching data to improve performance.
+- RESTful endpoints to serve article data  
+- Redis used to cache popular endpoints
 
-### Docker
+### Deployment with Docker
 
-- Containerize the React and Flask applications.
-- Set up Docker Compose to manage multi-container applications.
+- Entire application runs in isolated containers  
+- Simple setup using `make` commands and Docker Compose
 
-## Getting Started
+---
 
-[Tech Lab Documentation](https://bloombergtechlab.github.io/bbit-learning-labs/)
+## 🧪 Getting Started
 
-#### Prerequisites
-- Docker
-- Git
-- VS Code
+### Prerequisites
+
+- [Docker](https://www.docker.com/)  
+- [Git](https://git-scm.com/)  
+- [VS Code](https://code.visualstudio.com/)  
 - VS Code Dev Containers extension
 
+### Clone & Run
 
-To get started with the project, follow these steps:
-
-#### Fork and Clone the Project Repository
-
-1. Fork the project repository
-2. Clone the forked repo into your working directory, and navigate to it:
-``` sh
-git clone https://github.com/YOUR-USERNAME/bbit-learning-labs.git
-cd bbit-learning-labs/Tech-Lab-On-Campus/NewsFeed
+```bash
+git clone https://github.com/YOUR-USERNAME/newsfeed-app.git
+cd newsfeed-app
 ```
 
-#### Open the Development Container
+## Credits
+https://github.com/bloomberg/bbit-learning-labs/tree/main
 
-1. Open VSCode
-2. Install the Dev Containers extension [here](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers). If you already have it installed, continue to the next step.
-3. Open the `bbit-learning-labs/Tech-Lab-On-Campus/NewsFeed` folder through VS Code
-4. Open up the Command Palette in VSCode by either Ctrl+Shift+P (Windows) or Cmd+Shift+P (Mac) and type Dev Containers.
-5. Click on Dev Containers: Reopen in Container
-6. VSCode will start downloading some docker images and install the necessary python and npm packages
-
-#### Run the Website
-
-1. Open up a new terminal window, you can use ` Ctrl+Shift+ ``
-2. In the terminal, run `make run-backend` to run the backend
-3. Open up another new terminal window, you can use ` Ctrl+Shift+ `` again
-4. In the terminal, run `make run-frontend` to run the frontend
-
-✨ You should now be ready to develop! ✨
-
-## Resources
-
-- [React Documentation](https://reactjs.org/docs/getting-started.html)
-- [Flask Documentation](https://flask.palletsprojects.com/en/2.0.x/)
-- [Redis Documentation](https://redis.io/documentation)
-- [Docker Documentation](https://docs.docker.com/)
-
-We hope you enjoy this learning experience and look forward to seeing your innovative solutions!
-# NewsFeed
